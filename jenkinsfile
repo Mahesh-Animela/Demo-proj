@@ -1,0 +1,20 @@
+pipeline{
+    agent {
+
+    }
+    stages(build){
+        step{
+
+        }
+    }
+    stages(test){
+        step{
+
+        }
+    }
+    stages(deploy){
+        step{
+            
+        }
+    }
+}
