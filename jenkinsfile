@@ -4,17 +4,8 @@ pipeline{
     }
     stages(build){
         step{
+             git "https://github.com/Mahesh-Animela/Demo-proj.git"        
 
         }
-    }
-    stages(test){
-        step{
-
-        }
-    }
-    stages(deploy){
-        step{
-            
-        }
-    }
+    
 }
